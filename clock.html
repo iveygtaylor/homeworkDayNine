@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>What Time Is It</title>
+	<script src="app_clock.js"></script>
+	<style>
+		.mainwrapper{
+			width: 100%;
+			padding-top: 75px;
+			opacity: 0.9; 
+		}
+		#clock{
+			display: block;
+			font-size: 64px;
+			color: #f2f2f2;
+			width: 25%;
+			padding-top: 125px;
+			padding-left: 95px;
+			padding-right: 5px;
+			margin-left: 30%;
+		}
+		#textTime{
+			margin-left: 35%;
+			font-size: 38px; 
+			color: #f2f2f2;
+			padding-left: 30px;
+		}
+	</style>
+</head>
+<body onload="startTime()">
+	<div class="mainwrapper" id="colorChange">
+		<div id="clock"></div>
+		<p id="textTime">good afternoon.</p>
+	</div>
+</body>
+</html>
